@@ -23,7 +23,7 @@ struct ContentView: View {
         // padding() In SwiftUI this actually creates a new view with padding around it
         
         
-        VStack(alignment: .center, spacing: 100) {
+        VStack(alignment: .center, spacing: 1000) {
             TextFieldName(name: self.$name).background(.red)
             TextDisplayName(name: self.$name)
             Spacer().background(.green)
